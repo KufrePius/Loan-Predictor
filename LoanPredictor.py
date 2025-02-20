@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+#import matplotlib as plt
 import joblib
 import warnings
 warnings.filterwarnings('ignore')
-import plotly as px
+#import plotly as px
 
 
 data = pd.read_csv('Accountdata.csv')
